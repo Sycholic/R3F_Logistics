@@ -1,0 +1,29 @@
+
+#include "R3F_LOG\desc_include.h"
+
+// All settings below are not needed for your own mission
+
+Author="Team R3F www.team-r3f.org";
+OnLoadName = "[R3F] Logistics 3.1 - tutorial demo";
+OnLoadMission = "[R3F] Logistics 3.1 - tutorial demo";
+LoadScreen = "tutorial\img\r3f_logo_projet.paa";
+
+class Header {
+	gameType = COOP;
+	minPlayers = 1;
+	maxPlayers = 16;
+	playerCountMultipleOf = 1;
+};
+
+enableDebugConsole = 1;
+joinUnassigned = 0;
+
+Respawn = "BASE";
+RespawnDelay = 10;
+DisabledAI = true;
+
+ShowGPS = true;
+ShowCompass = true;
+ShowMap = true;
+
+#include "tutorial\desc_include.h"
